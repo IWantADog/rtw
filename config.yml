@@ -1,0 +1,7 @@
+---
+active_modules: [pygments, tags, blog, latex]
+author: Benji Lee
+canonical_url: http://www.empty.com
+modules:
+  pygments:
+    style: tango
