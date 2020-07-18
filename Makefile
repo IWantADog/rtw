@@ -1,5 +1,7 @@
 all: build upload
 
+modify:  build serve
+
 clean:
 	rm -rf _build
 
