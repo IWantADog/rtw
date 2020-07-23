@@ -5,4 +5,4 @@ canonical_url: http://www.empty.com
 modules:
   pygments:
     style: tango
-ignore_files: [venv, .vscode, .git, .gitignore, '.*', '_*', 'config.yml', 'Makefile', 'README', '*.conf']
+ignore_files: [venv, .vscode, .git, .gitignore, '.*', '_*', 'config.yml', 'Makefile', 'README', '*.conf', '*.sh']
