@@ -18,13 +18,27 @@ rstblog的开发者是 Armin Ronacher，一个十分厉害的pythoner。
 **rstblog** 的基本介绍
 ----------------------------
 
-先将rst文件渲染为html，再通过
+**rstblog** 先把rst文件渲染为html，再通过
 `jinja2 <https://jinja.palletsprojects.com/en/2.11.x/>`_ 模版系统将渲染后的html与模版拼接，最后将生成的html写入文件。
 
 **rstblog** 的基础是rst文件。关于rst文件的详细信息，可以参见
 `wiki <https://en.wikipedia.org/wiki/ReStructuredText>`_ 和 
 `Quick reStructuredText <https://docutils.sourceforge.io/docs/user/rst/quickref.html>`_ 。
 对于习惯使用md的朋友可能会感到麻烦。
+
+**rstblog** 运行在python2下，相关依赖
+`在这里 <https://gist.github.com/IWantADog/6841f32fd0935fe956b576c73479140a>`_
+
+通过源码安装 **rstblog**
+    .. code:: bash
+
+        $ cd rstblog
+        $ pip install .
+
+参考
+~~~~~~
+
+http://www.pasanpremaratne.com/2013/12/26/setting-up-my-static-blog
 
 
 
