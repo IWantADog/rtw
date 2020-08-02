@@ -1,4 +1,4 @@
-all: build upload
+all: clean build serve
 
 modify:  build serve
 
@@ -13,3 +13,6 @@ build:
 
 serve:
 	run-rstblog serve
+
+upload:
+	rsync -a _build/ los-ladder-2:/www/html/blog.iwantadog.monster/
