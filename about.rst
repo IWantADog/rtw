@@ -1,17 +1,15 @@
 public: yes
-summary: |
-    关于我
 
-关于我
-======
+Introduce
+=========
 
-我
+Me
 --
 
 `不入流python使用者
 <https://github.com/IWantADog>`_
 
-初衷
------
+Propose
+-------
 
-思考、记录与分享。
+阅读、思考、记录与分享。
