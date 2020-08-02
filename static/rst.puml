@@ -1,0 +1,11 @@
+@startuml
+Builder -> Module: Builder.init()
+Module -> Signal: signal.connect() after_file_published, before_build_finished
+
+Builder -> Content: Builder.run()
+Content -> Program: Content.run()
+Content -> Signal: before_file_built sent Content
+Content -> Signal: before_file_processed sent Content
+Content <- Program: Program.run() write rst to file
+Builder <- Content: Content.run() finished
+@enduml
